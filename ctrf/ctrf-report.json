@@ -10,8 +10,8 @@
       "pending": 0,
       "skipped": 0,
       "other": 0,
-      "start": 1772654006311,
-      "stop": 1772654006934
+      "start": 1772739690732,
+      "stop": 1772739691432
     },
     "tests": [
       {
@@ -27,7 +27,7 @@
       },
       {
         "name": "server.js [GET] /api/posts [1] doğru gönderi sayısı alıyor",
-        "duration": 14,
+        "duration": 15,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -71,7 +71,7 @@
       },
       {
         "name": "server.js [POST] /api/posts [5] 201 yanıtlıyor",
-        "duration": 9,
+        "duration": 10,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -82,7 +82,7 @@
       },
       {
         "name": "server.js [POST] /api/posts [6] yeni postu döndürüyor",
-        "duration": 5,
+        "duration": 6,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -93,7 +93,7 @@
       },
       {
         "name": "server.js [POST] /api/posts [7] title ve contents yokken 400 yanıtlıyor",
-        "duration": 4,
+        "duration": 3,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -104,7 +104,7 @@
       },
       {
         "name": "server.js [PUT] /api/posts/:id [8] güncellenen postu döndürüyor",
-        "duration": 3,
+        "duration": 4,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -115,7 +115,7 @@
       },
       {
         "name": "server.js [PUT] /api/posts/:id [9] güncellenen veriyi veritabanına kaydediyor",
-        "duration": 3,
+        "duration": 4,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -137,7 +137,7 @@
       },
       {
         "name": "server.js [PUT] /api/posts/:id [11] responds with the correct message & status code on validation problem",
-        "duration": 4,
+        "duration": 5,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -159,7 +159,7 @@
       },
       {
         "name": "server.js [DELETE] /api/posts/:id [13] silinen postu döndürüyor",
-        "duration": 2,
+        "duration": 3,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -170,7 +170,7 @@
       },
       {
         "name": "server.js [DELETE] /api/posts/:id [14] silineni vtden de siliyor",
-        "duration": 4,
+        "duration": 3,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
